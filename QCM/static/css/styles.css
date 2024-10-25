@@ -1,0 +1,72 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h1{
+    background: aqua;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* espace entre les boutons */
+    margin-bottom: 20px;
+}
+
+.button-section {
+    flex: 1;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.image-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.image-table th,
+.image-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.image-table th {
+    background-color: #f2f2f2;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Fichier : static/css/styles.css */
+
+.animate {
+    animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
